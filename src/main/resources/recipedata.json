@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Vegan Cheeseburger",
+    "description": "Delicious guilt-free cheesy burger",
+    "difficulty": "MEDIUM",
+    "position": 3,
+    "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
+  },
+  {
+    "name": "Bacon Cheeseburger",
+    "description": "Bacon and cheese in a burger",
+    "difficulty": "EASY",
+    "position": 2,
+    "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
+  },
+  {
+    "name": "Truffle Burger",
+    "description": "Burger oozing with truffle sauce",
+    "difficulty": "HARD",
+    "position": 1,
+    "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
+  },
+  {
+    "name": "Breakfast Burger",
+    "description": "Contains eggs, lettuce, tomato, and bacon",
+    "difficulty": "MEDIUM",
+    "position": 2,
+    "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
+  },
+  {
+    "name": "Chicken Burger",
+    "description": "With Free-range, Grass-fed Chicken breast",
+    "difficulty": "EASY",
+    "position":5,
+    "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
+  }
+]
