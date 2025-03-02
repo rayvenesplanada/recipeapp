@@ -10,10 +10,11 @@ This Simple Recipe service exposes 2 API endpoints, `/recipes` and `/recipes/dif
 3. Maven
 
 ### Components
-1. **Controller** - Handles API logic
-2. **Service** - Handles business logic
+1. **Database** - Used **H2** to create a lightweight in-memory database storing sample data for the app. 
+2. **Controller** - Handles API logic
+3. **Service** - Handles business logic
    3. `DataLoaderService` - Added to mock database (with the help of **H2** DB). Initializes schema using **liquibase** dependency and populates database using a static **JSON** file
-3. **Data** - Defines the models
+4. **Data** - Defines the models
 3. **Repository** - Handles database logic
 
 ### Application Set-up
