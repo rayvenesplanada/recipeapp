@@ -42,6 +42,6 @@ java -jar target/recipeapp-0.0.1-SNAPSHOT.jar
   - **Body**: JSON array of recipes with the specified difficulty.
 - **Error Response**
   - **Status**: `500`
-  - **Body**: Error message ""
+  - **Body**: Error message "A difficulty is required for filtering trending recipes"
 
 
