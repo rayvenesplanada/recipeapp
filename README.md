@@ -36,7 +36,7 @@ java -jar target/recipeapp-0.0.1-SNAPSHOT.jar
 - **Method**: `GET`
 - **Description**: Retrieves recipes filtered by difficulty.
 - **Parameters**:
-  - `difficulty` (path): The difficulty level of the recipes (e.g., EASY, MEDIUM, HARD).
+  - `difficulty` (Request Param): The difficulty level of the recipes (e.g., EASY, MEDIUM, HARD).
 - **Response**:
   - **Status**: `200 OK`
   - **Body**: JSON array of recipes with the specified difficulty.
