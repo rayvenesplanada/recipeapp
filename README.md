@@ -16,6 +16,7 @@ This Simple Recipe service exposes 2 API endpoints, `/recipes` and `/recipes/dif
    - `DataLoaderService` - Added to mock database (with the help of **H2** DB). Initializes schema using **liquibase** dependency and populates database using a static **JSON** file
 4. **Data** - Defines the models
 5. **Repository** - Handles database logic
+6. **Exception** - Handles exception logic. Returns error message to the client instead of generic Internal Server Error message for 5XX errors
 
 ### Application Set-up
 1. Clone repository to your working environment. Right now there is only a `master` branch that's in the remote repository.
