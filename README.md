@@ -16,8 +16,9 @@ This Simple Recipe service exposes 2 API endpoints, `/recipes` and `/recipes/dif
 3. **Repository** - Handles database logic
 
 ### Application Set-up
-1. Run `mvn clean install` to install the dependencies
-2. Either run the app in `RecipeappApplication.java` using your IDE's embedded Run features OR run the following command in the root path of your project:
+1. Clone repository to your working environment. Right now there is only a `master` branch that's in the remote repository.
+2. Run `mvn clean install` to install the dependencies
+3. Either run the app in `RecipeappApplication.java` using your IDE's embedded Run features OR run the following command in the root path of your project:
 ```bash
 java -jar target/recipeapp-0.0.1-SNAPSHOT.jar
 ```
