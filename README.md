@@ -1,7 +1,7 @@
 # Spring Simple Recipe Filtering App 
 
 ### Overview
-This Simple Recipe service exposes 2 API endpoints, `/recipes` and `/recipes/difficulty` which displays a list of food items, and may filter it by difficulty.
+This Simple Recipe service exposes 2 API endpoints, `/recipes` and `/recipes/filter` which displays a list of food items, and may filter it by difficulty.
 
 
 ### Prerequisites
